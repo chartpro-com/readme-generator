@@ -32,7 +32,7 @@ function renderLicenseSection(license) {
   const licenseLink = renderLicenseLink(license);
 
   if (license) {
-    return `## License
+    return `
 
 This project is covered under the ${license} license. ${licenseLink}
     
